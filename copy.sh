@@ -10,7 +10,7 @@ if [ -f "$path/v" ]; then
    echo "File $FILE exists."
 	$local_version=$(cat $path'/v')
 else
-   $local_version='0'
+   $local_version=0
 fi
 echo $version
 echo $local_version
