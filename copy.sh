@@ -8,9 +8,9 @@ git_path="./i3-config"
 version=$(cat $git_path'/v')
 if [ -f "$path/v" ]; then
    echo "File $FILE exists."
-	$local_version=$(cat $path'/v')
+	local_version=$(cat $path'/v')
 else
-   $local_version=0
+   local_version=0
 fi
 echo $version
 echo $local_version
