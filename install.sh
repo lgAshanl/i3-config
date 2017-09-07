@@ -8,4 +8,4 @@ name=$(whoami)
 
 sudo chsh -s /usr/bin/fish $name
 
-sudo ./copy.sh
+./copy.sh
