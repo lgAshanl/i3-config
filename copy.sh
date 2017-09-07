@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#git clone https://github.com/lgAshanl/i3-config
+git clone https://github.com/lgAshanl/i3-config
 
 name=$(whoami)
 path="/home/$name/.config/i3"
