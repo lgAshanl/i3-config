@@ -1,4 +1,4 @@
-theme = "solarized-dark"
+#theme = "solarized-dark"
 icons = "awesome"
 
 [[block]]
