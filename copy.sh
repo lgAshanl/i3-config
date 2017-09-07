@@ -24,7 +24,7 @@ fi
 
 rm -r $git_path
 
-sudo pacman -S polkit-gnome gnome-keyring -y
-sudo pacman -S alsa-utils lm_sensors gperftools powerline-fonts feh dmenu -y
-yaourt -S speedtest-cli ttf-font-awesome i3status-rust-git -y
+#sudo pacman -S polkit-gnome gnome-keyring -y
+#sudo pacman -S alsa-utils lm_sensors gperftools powerline-fonts feh dmenu -y
+#yaourt -S speedtest-cli ttf-font-awesome i3status-rust-git -y
 
