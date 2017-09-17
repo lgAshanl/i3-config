@@ -4,6 +4,7 @@ git clone https://github.com/lgAshanl/i3-config
 
 name=$(whoami)
 path="/home/$name/.config/i3"
+mkdir $path
 git_path="./i3-config"
 version=$(cat $git_path'/v')
 if [ -f "$path/v" ]; then
