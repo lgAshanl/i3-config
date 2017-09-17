@@ -9,5 +9,3 @@ yaourt -S maia-gtk-theme google-chrome -y
 sudo chsh -s /usr/bin/fish $name
 
 ./copy.sh
-
-От коробки до НК хуй сосет ФРТК
