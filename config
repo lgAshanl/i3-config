@@ -38,6 +38,8 @@ bindsym $mod+i exec pamac-manager
 bindsym $mod+u exec pamac-updater
 
 # start a terminal
+# i3-sensible-terminal = gnome-terminal
+#exec export $TERMINAL=gnome-terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
 # kill focused window
@@ -185,5 +187,3 @@ bar {
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 & eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg) &
 exec --no-startup-id setxkbmap -layout us,ru
 exec --no-startup-id setxkbmap -option 'grp:alt_shift_toggle'
-exec --no-startup-id export MAKEPKG="makepkg --skipinteg"
-
