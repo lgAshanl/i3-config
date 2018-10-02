@@ -1,5 +1,18 @@
-theme = "solarized-dark"
-icons = "awesome"
+[theme]
+name = "solarized-dark"
+[icons]
+name = "awesome"
+
+[[block]]
+gpu_id = 1
+block = "nvidia_gpu"
+show_fan_speed = true
+interval = 1
+
+[[block]]
+block = "nvidia_gpu"
+show_fan_speed = true
+interval = 1
 
 [[block]]
 block = "temperature"
@@ -44,7 +57,6 @@ interval = 1
 block = "net"
 device = "enp3s0"
 interval = 1
-graph = false
 
 [[block]]
 block = "sound"
@@ -55,4 +67,8 @@ step_width = 3
 block = "time"
 interval = 60
 format = "%a %d/%m %R"
+
+[[block]]
+block = "pacman"
+interval = 10
 
